@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  background-color: rgb(233, 233, 233);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.datepicker .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+  width:60%;
+}
+.datepicker .MuiButtonBase-root{
+  width: 36%;
+  margin-left: 4%;
+  height: 56px;
+}
+.button .MuiButtonBase-root{
+  margin: 0px 8px;
+  width: 150px;
+  height: 56px;
+}
+.MuiTableContainer-root{
+  margin-top:20px ;
+}
+.tableRow .MuiTableCell-root{
+  color: #ffffff !important;
+}
+.CardImage {
+  margin-left: auto;
+  margin-right: auto;
+}
+.Price {
+  text-align: left !important;
+  width: 100%;
+}
+.UnitPrice{
+  text-decoration: line-through;
+}
+.ActualPrice{
+  color: #282c34;
+}
+.Discount{
+
+  color: rgb(16, 218, 16);
+  float: right;
+}
